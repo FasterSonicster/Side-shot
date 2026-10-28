@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050816"><title>STARFALL — Deep Space Defense</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="game"></div>
+<header class="hud"><div class="brand"><span class="mark">✦</span><div><b>STARFALL</b><small>DEEP SPACE DEFENSE</small></div></div>
+<div class="stats"><div><small>SCORE</small><strong id="score">000000</strong></div><div><small>WAVE</small><strong id="wave">01</strong></div><div class="health"><small>HULL</small><div class="track"><i id="healthbar"></i></div><strong id="health">100%</strong></div></div></header>
+<div class="help">WASD / ARROWS &nbsp; MOVE &nbsp; · &nbsp; SPACE &nbsp; FIRE &nbsp; · &nbsp; P &nbsp; PAUSE</div>
+<section id="overlay" class="overlay"><div class="panel"><div id="eyebrow" class="eyebrow">● FLIGHT SYSTEM ONLINE</div><h1 id="heading">HOLD THE<br><em>FRONTIER.</em></h1><p id="intro">Hostile signatures detected beyond the outer rim. Pilot your interceptor, break the waves, and protect the sector.</p><div class="controls"><div><b>W A S D</b><small>FLIGHT</small></div><div><b>SPACE</b><small>WEAPONS</small></div><div><b>P</b><small>PAUSE</small></div></div><button id="start">INITIATE LAUNCH <span>↗</span></button><small class="note">DESKTOP KEYBOARD · TOUCH CONTROLS ON MOBILE</small></div></section>
+<div class="touch"><div class="dpad"><button data-key="ArrowUp">▲</button><div><button data-key="ArrowLeft">◀</button><button data-key="ArrowDown">▼</button><button data-key="ArrowRight">▶</button></div></div><button id="fireTouch" class="fire">FIRE</button></div>
+<div id="toast" class="toast"></div><script type="module" src="main.js"></script>
+</body></html>
